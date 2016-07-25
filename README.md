@@ -1,2 +1,3 @@
-# react-webpack-lab
-High experimental repo to set up smart development/production environment for React using Webpack
+# The game of life
+
+It is a 'cellular automaton', and was invented by Cambridge mathematician John Conway.

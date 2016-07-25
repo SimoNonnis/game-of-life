@@ -1,6 +1,6 @@
 {
-  "name": "react-webpack-lab",
-  "description": "High experimental repo to set up smart development/production environment for React using Webpack",
+  "name": "game-of-life",
+  "description": "It is a 'cellular automaton', and was invented by Cambridge mathematician John Conway",
   "author": "Simon Nonnis (https://github.com/SimoNonnis)",
   "version": "0.6.0",
   "license": "MIT",
@@ -27,13 +27,13 @@
     "stylelint",
     "html-webpack-plugin"
   ],
-  "homepage": "https://github.com/SimoNonnis/react-webpack-lab#readme",
+  "homepage": "https://github.com/SimoNonnis/game-of-life#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SimoNonnis/react-webpack-lab"
+    "url": "https://github.com/SimoNonnis/game-of-life"
   },
   "bugs": {
-    "url": "https://github.com/SimoNonnis/react-webpack-lab/issues"
+    "url": "https://github.com/SimoNonnis/game-of-life/issues"
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
