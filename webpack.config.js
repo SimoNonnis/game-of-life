@@ -57,7 +57,7 @@ const config = {
   postcss: [
     require('postcss-cssnext')(),
     require('postcss-reporter')()
-   ],
+  ],
   resolve: {
     extensions: ['', '.js']
   },

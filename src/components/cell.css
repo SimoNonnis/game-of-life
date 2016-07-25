@@ -1,0 +1,29 @@
+/* Variables
+   ========================================================================== */
+
+:root {
+  --wild-green: #8bc34a;
+  --light-green: #cddc39;
+  --grey: #DDD;
+}
+
+
+/* Style
+   ========================================================================== */
+td {
+  border: 1px solid var(--grey);
+  height: 1em;
+  width: 1em;
+}
+
+td:hover:not( .alive ):not( .new-born ) {
+  background: var(--grey);
+}
+
+.alive {
+ background: var(--wild-green);
+}
+
+.new-born {
+ background: var(--light-green);
+}

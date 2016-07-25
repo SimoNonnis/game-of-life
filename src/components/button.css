@@ -1,0 +1,27 @@
+/* Variables
+   ========================================================================== */
+
+:root {
+  --wild-green: #8bc34a;
+  --light-green: #cddc39;
+  --grey: #bdbdbd;
+}
+
+/* Style
+   ========================================================================== */
+.button {
+  padding: .5em .7em .6em;
+  background-color: var(--light-green);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid var(--grey);
+  transition: background-color .3s ease-out;
+}
+
+.button:hover {
+  background-color: var(--wild-green);
+}
+
+.button + .button {
+  margin-left: .5em;
+}
