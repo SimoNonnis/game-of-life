@@ -4,6 +4,7 @@
 :root {
   --wild-green: #8bc34a;
   --light-green: #cddc39;
+  --yellow-green: #e3e84d;
   --grey: #DDD;
 }
 
@@ -16,14 +17,14 @@ td {
   width: 1em;
 }
 
-td:hover:not( .alive ):not( .new-born ) {
-  background: var(--grey);
+td:hover:not( .alive ):not( .newBorn ) {
+  background: var(--yellow-green);
 }
 
 .alive {
  background: var(--wild-green);
 }
 
-.new-born {
+.newBorn {
  background: var(--light-green);
 }
