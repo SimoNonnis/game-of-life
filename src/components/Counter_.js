@@ -1,13 +1,14 @@
 import React from 'react';
 
 // Import css
+import styles from './counter.css';
 
 
 
 class Counter_ extends React.Component {
   render(){
     return (
-      <div >
+      <div className={styles.counter} >
         Generations: {this.props.generations}
       </div>
     );

@@ -49,7 +49,7 @@ const App = () => (
     <h1 className={styles.title}>Game of Life</h1>
 
     <div>
-      <p>The <strong>Game of Life</strong>, also known simply as <strong>Life</strong>, is a cellular automaton invented by the British mathematician John Horton Conway in 1970.</p>
+      <p>The Game of Life, also known simply as Life, is a cellular automaton invented by the British mathematician John Horton Conway in 1970.</p>
 
       <p>Every cell interacts with its 8 neighbours.
       At each step in time, the following transitions occur:</p>
