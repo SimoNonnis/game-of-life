@@ -14,20 +14,20 @@ class Control_ extends React.Component {
     return (
         <div className={styles.buttonsGroup} >
           <Button
-            handleClick={() => this.props.random()}
-            title={'Rand'}
+            handleClick={() => this.props.makeRandomGrid()}
+            title={'Random Grid'}
           />
           <Button
             handleClick={() => this.clear()}
-            title={'Reset'}
+            title={'Clean Board'}
           />
           <Button
             handleClick={() => this.togglePlay()}
-            title={this.props.playState.isRunning ? 'Stop' : 'Play' }
+            title={this.props.playState.isRunning ? 'Pause Time' : 'Run Game' }
           />
           <Button
             handleClick={() => this.props.tick()}
-            title={'Step'}
+            title={'Next Step'}
           />
         </div>
     );
@@ -54,7 +54,7 @@ class Control_ extends React.Component {
 
 
 Control_.propTypes = {
-  random: React.PropTypes.func,
+  makeRandomGrid: React.PropTypes.func,
   tick: React.PropTypes.func,
   startPlaying: React.PropTypes.func,
   stopPlaying: React.PropTypes.func,
